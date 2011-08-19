@@ -1,0 +1,9 @@
+{
+	"hello": {
+		"these": [-3, -2, -1, 0, 1, 2, 3],
+		"are": ["a", "B", "c"],
+		"some": [true, false, null],
+		"keys": [-0.0000009, 3802374, 78.8999, 2.0]
+	},
+	"world": "This is RCFJ."
+}
