@@ -437,4 +437,4 @@ if __name__ == '__main__':
     result = '(function(){%sreturn %s;})()' % (foreword_symbolizations+foreword_functions, writeJSON(structure, proposals, options=writer_options))
   else:
     result = writeJSON(structure, proposals, options=writer_options)
-  sys.stdout.write(result)
+  sys.stdout.write(result.encode('utf-8'))
